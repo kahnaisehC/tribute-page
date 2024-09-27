@@ -1,10 +1,36 @@
+root{
+    font-size: 16px;
+}
+body{
+}
 *{
     margin:0;
-  }
-  #image{
-    display: block;
-    height: auto;
-    margin: 0 auto;
-    width: 600px;
-    max-width:100%;
-  }
+}
+#image{
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 600px;
+  max-width:100%;
+}
+#main{
+  margin: 1rem auto 1rem auto;
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  max-width: 80%;
+  background-color: rgba(24,24,24,25%);
+
+  
+}
+header{
+  text-align: center;
+  padding: 1rem;
+}
+header p{
+  font-style: italic;
+  font-size: 1.3rem;
+}
+h1{
+  font-size: 3rem;
+}
