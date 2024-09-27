@@ -1,0 +1,10 @@
+*{
+    margin:0;
+  }
+  #image{
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 600px;
+    max-width:100%;
+  }
